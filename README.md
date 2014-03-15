@@ -9,8 +9,8 @@ Screenshots
 
 Authors
 ======
-Kevin Carlo S. Uy
-Marie Angelo O. Yan
+Kevin Carlo S. Uy /n
+Marie Angelo O. Yan/n
 
-BSIT-4
+BSIT-4/n
 University of San Carlos
