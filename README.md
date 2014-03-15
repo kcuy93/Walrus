@@ -4,8 +4,8 @@ this application is made in partial fulfillment for the Mobile web dev class of 
 
 Screenshots
 ======
-![Alt text](Walrus/screenshots/Home.JPG  "Login Screen")
-![Alt text](Walrus/screenshots/Pin.JPG  "Sample Pin")
+![Alt text](screenshots/Home.JPG  "Login Screen")
+![Alt text](screenshots/Pin.JPG  "Sample Pin")
 
 Authors
 ======
