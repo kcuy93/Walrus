@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginPopup"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/rectangle" >
+    <Button 
+        android:id="@+id/login_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:padding="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/fbbutton"
+        android:text="Login With Facebook"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+    <Button 
+        android:id="@+id/login_twitter"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:padding="4dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/twitterbutton"
+        android:text="Login With Twitter"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:layout_marginBottom="16dp"
+	    android:background="@color/background_gray"/>
+	<EditText 
+	    android:id="@+id/popup_username"
+        android:hint="Username"
+        android:padding="8dp"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/usernamepassword"/>
+	<EditText 
+	    android:id="@+id/popup_password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/usernamepassword"/>
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:layout_marginTop="10dp"
+	    android:background="@color/background_gray"/>
+	<RelativeLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true"
+		    android:text="Forgot password?"
+		    android:layout_alignParentLeft="true"/>
+
+		<Button
+		    android:id="@+id/popUp_btnCancel"
+		    android:layout_height="40dp"
+		    android:layout_width="wrap_content"
+		    android:background="@drawable/follow_button_border"
+		    android:text="Cancel"
+		    android:textColor="@color/white"
+		    android:layout_centerVertical="true"
+		    android:textSize="14sp"
+		    android:layout_alignParentRight="true"/>
+		
+		<Button
+		    android:id="@+id/popUp_btnLogin"
+		    android:layout_height="40dp"
+		    android:layout_width="wrap_content"
+		    android:background="@drawable/follow_button_border"
+		    android:text="Login"
+		    android:textColor="@color/white"
+		    android:layout_centerVertical="true"
+		    android:textSize="14sp"
+		    android:layout_toLeftOf="@id/popUp_btnCancel"
+		    android:layout_marginRight="4dp"/>
+	</RelativeLayout>
+</LinearLayout>
+

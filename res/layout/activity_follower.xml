@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+	<RelativeLayout 
+        android:id="@+id/follower_relativeLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+  		android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp">
+	    <TextView
+	        android:id="@+id/follower_textViewFollersTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="4dp"
+	        android:paddingBottom="4dp"
+	        android:text="Followers"
+	        android:textSize="15sp" />
+	    <TextView 
+	        android:id="@+id/follower_textViewPeopleWhoSee"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="4dp"
+	        android:layout_marginBottom="4dp"
+	        android:text="People who see your new pins."
+	        android:textSize="12sp"
+	        android:layout_below="@id/follower_textViewFollersTitle"/>
+	    <Button 
+	        android:layout_width="120dp"
+	        android:layout_height="30dp"
+	        android:paddingTop="4dp"
+	        android:paddingBottom="4dp"
+	        android:text="Find Friends"
+	        android:background="@drawable/follow_button_border"
+	        android:textSize="12sp"
+	        android:layout_alignParentRight="true"
+	        android:textColor="@color/white"
+	        />
+	</RelativeLayout>
+	<View 
+	    android:layout_marginTop="16dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/light_gray"/>
+    <ListView
+       
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    </ListView>
+    	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/light_gray"/>
+
+</LinearLayout>
+

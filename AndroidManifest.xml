@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.walrus"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Home Activity -->
+        <activity
+            android:name="com.example.walrus.HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Follower Activity -->
+        <activity
+            android:name="com.example.walrus.FollowActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.walrus.PinActivity"
+            android:label="@string/title_activity_news_feed" >
+        </activity>
+        <activity
+            android:name="com.example.walrus.ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="com.example.walrus.NewsFeedActivity"
+            android:label="@string/title_activity_news_feed" >
+        </activity>
+        <activity
+            android:name="com.example.walrus.MoreProfileActivity"
+            android:label="@string/title_activity_more_profile" >
+        </activity>
+        <activity
+            android:name="com.example.walrus.BoardsFragment"
+            android:label="@string/title_activity_boards_fragment" >
+        </activity>
+        <activity
+            android:name="com.example.walrus.AboutFragment"
+            android:label="@string/title_activity_about_fragment" >
+        </activity>
+        <activity
+            android:name="com.example.walrus.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.example.walrus.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+    </application>
+
+</manifest>

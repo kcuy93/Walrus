@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_marginTop="4dp"
+     android:layout_marginBottom="4dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@drawable/border"
+     android:padding="4dp">
+     <ImageView
+         android:id="@+id/profile_otherUserImage"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:src="@drawable/yumi"
+         android:contentDescription="otherUserImage"
+         android:padding="4dp" />
+     <TextView 
+         android:id="@+id/profile_otherUserName"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Yumi Takita"
+         android:layout_toRightOf="@id/profile_otherUserImage"
+         android:paddingLeft="4dp"
+         android:paddingTop="4dp"/>
+     <TextView 
+         android:id="@+id/profile_otherUserActivity"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Pinned your pin"
+         android:textSize="12sp"
+         android:layout_toRightOf="@id/profile_otherUserImage"
+         android:layout_below="@id/profile_otherUserName"
+         android:padding="4dp"/>
+     <TextView 
+         android:id="@+id/profile_otherUserActivityTime"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="3 months ago"
+         android:textSize="12sp"
+         android:textColor="@color/boardname_gray"
+         android:layout_toRightOf="@id/profile_otherUserImage"
+         android:layout_below="@id/profile_otherUserActivity"
+         android:padding="4dp"/>
+     <ImageView
+         android:id="@+id/profile_otherImage"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:src="@drawable/animals"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:contentDescription="otherImage"
+         android:padding="4dp" />
+</RelativeLayout>

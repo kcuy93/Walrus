@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle">
+    <RelativeLayout 
+        android:id="@+id/search_all"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView 
+            android:id="@+id/search_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="4dp"
+            android:src="@drawable/all"/>
+        <TextView 
+            android:id="@+id/search_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/search_image"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:text="All"/>
+        <TextView 
+            android:id="@+id/search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/search_image"
+            android:layout_below="@id/search_category"
+            android:paddingLeft="8dp"
+            android:textSize="12sp"
+            android:textColor="@color/boardname_gray"
+            android:text="All pins in one place!"/>
+    </RelativeLayout>
+    
+</RelativeLayout>
